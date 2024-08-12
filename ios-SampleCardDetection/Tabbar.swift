@@ -7,23 +7,23 @@
 
 import UIKit
 
-class Tabbar: UITabBarController {
-
+class TabbarController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupTabbar()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func setupTabbar() {
+        tabBar.backgroundColor = .systemGray3
+        
+        let scannerViewController = ScannerViewController()
+        
+        let vc = UINavigationController(rootViewController: scannerViewController)
+        vc.tabBarItem.image = UIImage(systemName: "camera.viewfinder")
+        vc.tabBarItem.title = "Scan"
+        
+        tabBar.tintColor = .label
+        setViewControllers([vc], animated: true)
     }
-    */
-
 }

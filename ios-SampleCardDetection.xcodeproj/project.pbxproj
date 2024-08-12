@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B035C942C6A4E9A008DFF17 /* CameraManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B035C932C6A4E9A008DFF17 /* CameraManger.swift */; };
 		3B5B2F5A2C691C7E00CD655F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F592C691C7E00CD655F /* AppDelegate.swift */; };
 		3B5B2F5C2C691C7E00CD655F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F5B2C691C7E00CD655F /* SceneDelegate.swift */; };
-		3B5B2F5E2C691C7E00CD655F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F5D2C691C7E00CD655F /* ViewController.swift */; };
-		3B5B2F612C691C7E00CD655F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B2F602C691C7E00CD655F /* Base */; };
 		3B5B2F632C691C8000CD655F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B2F622C691C8000CD655F /* Assets.xcassets */; };
 		3B5B2F662C691C8000CD655F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B2F652C691C8000CD655F /* Base */; };
+		3B5B2F6E2C691CE100CD655F /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F6D2C691CE100CD655F /* Tabbar.swift */; };
+		3B5B2F702C691D1400CD655F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F6F2C691D1400CD655F /* ScannerViewController.swift */; };
+		3B5B2F722C691EC800CD655F /* ScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B2F712C691EC800CD655F /* ScannerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B035C932C6A4E9A008DFF17 /* CameraManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManger.swift; sourceTree = "<group>"; };
 		3B5B2F562C691C7E00CD655F /* ios-SampleCardDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-SampleCardDetection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5B2F592C691C7E00CD655F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B5B2F5B2C691C7E00CD655F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B5B2F5D2C691C7E00CD655F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B5B2F602C691C7E00CD655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B5B2F622C691C8000CD655F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5B2F652C691C8000CD655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B5B2F672C691C8000CD655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5B2F6D2C691CE100CD655F /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		3B5B2F6F2C691D1400CD655F /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		3B5B2F712C691EC800CD655F /* ScannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				3B5B2F592C691C7E00CD655F /* AppDelegate.swift */,
 				3B5B2F5B2C691C7E00CD655F /* SceneDelegate.swift */,
-				3B5B2F5D2C691C7E00CD655F /* ViewController.swift */,
-				3B5B2F5F2C691C7E00CD655F /* Main.storyboard */,
 				3B5B2F622C691C8000CD655F /* Assets.xcassets */,
 				3B5B2F642C691C8000CD655F /* LaunchScreen.storyboard */,
 				3B5B2F672C691C8000CD655F /* Info.plist */,
+				3B5B2F6D2C691CE100CD655F /* Tabbar.swift */,
+				3B5B2F6F2C691D1400CD655F /* ScannerViewController.swift */,
+				3B5B2F712C691EC800CD655F /* ScannerManager.swift */,
+				3B035C932C6A4E9A008DFF17 /* CameraManger.swift */,
 			);
 			path = "ios-SampleCardDetection";
 			sourceTree = "<group>";
@@ -127,7 +133,6 @@
 			files = (
 				3B5B2F632C691C8000CD655F /* Assets.xcassets in Resources */,
 				3B5B2F662C691C8000CD655F /* Base in Resources */,
-				3B5B2F612C691C7E00CD655F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5B2F5E2C691C7E00CD655F /* ViewController.swift in Sources */,
 				3B5B2F5A2C691C7E00CD655F /* AppDelegate.swift in Sources */,
 				3B5B2F5C2C691C7E00CD655F /* SceneDelegate.swift in Sources */,
+				3B5B2F702C691D1400CD655F /* ScannerViewController.swift in Sources */,
+				3B5B2F722C691EC800CD655F /* ScannerManager.swift in Sources */,
+				3B035C942C6A4E9A008DFF17 /* CameraManger.swift in Sources */,
+				3B5B2F6E2C691CE100CD655F /* Tabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B5B2F5F2C691C7E00CD655F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B5B2F602C691C7E00CD655F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B5B2F642C691C8000CD655F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -290,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93926563G8;
@@ -297,9 +298,9 @@
 				INFOPLIST_FILE = "ios-SampleCardDetection/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +308,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.necatialperen.ios-SampleCardDetection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93926563G8;
@@ -325,9 +328,9 @@
 				INFOPLIST_FILE = "ios-SampleCardDetection/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +338,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.necatialperen.ios-SampleCardDetection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
